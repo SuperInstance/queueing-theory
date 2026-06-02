@@ -1,0 +1,11 @@
+[package]
+name = "queueing-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Queueing theory in Rust — M/M/1, M/M/c, Erlang, Jackson networks, priority queues. Model capacity before you build."
+repository = "https://github.com/SuperInstance/queueing-theory"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
